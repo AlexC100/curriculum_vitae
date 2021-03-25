@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Curriculum Vitae | Alexandru-Nicolae Ceausu</title>
+  </head>
+  <body>
+    <a href="#" id="print"><i class="fas fa-print"></a></i>
+    <div class="container-xl mt-5 shadow overflow-hidden" id="content-to-print">
+      <div class="row">
+        <div class="col-lg-2 bg-custom-blue p-5 timeline"></div>
+        <div class="col-lg-10 col-sm-12 p-5 bg-light">
+          <div class="d-flex w-100 justify-content-between" id="header">
+            <div>
+              <h1 class="py-0">Alexandru-Nicolae Ceausu</h1>
+              <h3>Junior Web Developer</h3>
+            </div>
+            <img
+              src="./images/picture.png"
+              class="rounded-circle shadow"
+              alt="Alexandru Ceausu"
+            />
+          </div>
+          <div id="contact">
+            <div class="col-md-3 mt-4 p-0 text-secondary">
+              <div class="personal-info mb-3">
+                <i
+                  class="fas fa-birthday-cake p-1 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <span>28-02-1987, Bucuresti</span>
+              </div>
+            </div>
+            <div class="row text-secondary my-4">
+              <div class="col-md-5">
+                <div class="personal-info mb-3">
+                  <i
+                    class="fa fa-phone p-1 mr-2 rounded-circle bg-custom-blue text-white"
+                  ></i>
+                  <span>+40 726 762 164</span>
+                </div>
+
+                <div class="personal-info mb-3">
+                  <i
+                    class="fa fa-envelope p-1 mr-2 rounded-circle bg-custom-blue text-white"
+                    aria-hidden="true"
+                  ></i>
+                  <a
+                    href="mailto:alexandru.ceausu87@gmail.com"
+                    target="_blank"
+                    class="text-custom-primary"
+                    >alexandru.ceausu87@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="personal-info mb-3">
+                  <span>
+                    <i
+                      class="fab fa-linkedin-in p-1 mr-2 rounded-circle bg-custom-blue text-white"
+                    ></i>
+                  </span>
+                  <a
+                    href="https://linkedin.com/in/alexandru-ceausu-52298a206"
+                    target="_blank"
+                    class="text-custom-primary"
+                    >linkedin.com/in/alexandru-ceausu-52298a206</a
+                  >
+                </div>
+                <div class="personal-info mb-3">
+                  <i
+                    class="fab fa-twitter p-1 mr-2 rounded-circle bg-custom-blue text-white"
+                  ></i>
+                  <a
+                    href="https://twitter.com/@AlexandruC100"
+                    target="_blank"
+                    class="text-custom-primary"
+                    >@AlexandruC100</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5" id="location-and-objective">
+            <div class="col">
+              <div class="personal-info mb-3">
+                <i
+                  class="fas fa-map-marker-alt p-1 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <span class="text-secondary" id="location"></span>
+              </div>
+            </div>
+            <div class="px-3 text-secondary">
+              <p>
+                Obiectivul personal actual constituie in gasirea unui job in domeniul web development, perfectionarea abilitatilor acumulate pana in prezent si dobandirea de cunostinte noi in acest domeniu.
+              </p>
+            </div>
+          </div>
+          <div class="row mb-3" id="content">
+            <div class="col">
+              <!-- Experience -->
+              <div class="mb-3">
+                <i
+                  class="fas fa-briefcase p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <h4 class="d-inline-block">Experienta</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="experience-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="experience-list">
+                <p class="p-0 m-0 period">Sep 2018 - Prezent</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Curier</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  SC Pozitron Medical Investigation SRL, Constanta
+                </p>
+                <ul>
+                  <li>Transport marfa</li>
+                  <li>Transport persoane</li>
+                  <li>Achizitii materiale administrative</li>
+                  <li>Rezolvare probleme administrative</li>
+                  <li>Reparatii</li>
+                  <li>
+                    Suport ocazional pentru colegii din departamentul de IT
+                  </li>
+                </ul>
+
+                <p class="p-0 m-0 period">Oct 2016 - Sep 2018</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Asistent Manager Tehnic</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  SC. Honest General Tehnic SRL
+                </p>
+                <ul>
+                  <li>Coordonare echipa departament tehnic si grafica</li>
+                  <li>Fise tehnice produse</li>
+                  <li>Analiza mostre produse noi</li>
+                  <li>Analize date logistice</li>
+                  <li>Relatii furnizori China</li>
+                  <li>Prereceptie produse si ambalaje China</li>
+                  <li>
+                    Analizare testare si creare de manuale pentru aplicatiile
+                    interne ale companiei
+                  </li>
+                </ul>
+
+                <p class="p-0 m-0 period">Dec 2013 - Oct 2016</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Asistent Manager Logistica</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  SC. Honest General Tehnic SRL
+                </p>
+                <ul>
+                  <li>Verificare stocuri</li>
+                  <li>Gestionare transferuri stocuri</li>
+                  <li>Rapoarte privind situatia stocurilor</li>
+                  <li>Reglari de stocuri</li>
+                  <li>Analiza inventariere stocuri</li>
+                  <li>Coordonare echipe depozit</li>
+                </ul>
+
+                <p class="p-0 m-0 period">Mai 2012 - Dec 2013</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Analist Vanzari</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  SC. Honest General Tehnic SRL
+                </p>
+                <ul>
+                  <li>Preluarea comenzilor emise telefonic</li>
+                  <li>
+                    Preluarea comenzilor emise telefonic, in format electronic
+                    sau personal de la potentialii clienti interesati de
+                    produsele aflate in stoc
+                  </li>
+                  <li>
+                    Prezentarea materialelor existente si incheierea
+                    contractelor de colaborare in caz de interes si acord
+                    exprimat
+                  </li>
+                  <li>Determinarea analizei vanzarilor</li>
+                  <li>Organizarea showroom-ului</li>
+                  <li>
+                    Suport ocazional pentru colegii din departamentul de IT in
+                    vederea instalalarii anumitor programe
+                  </li>
+                  <li>
+                    Asigurarea mentenatantei si achizitionarea materialelor
+                    necesare functionarii optime a calculatoarelor si
+                    imprimantelor
+                  </li>
+                </ul>
+
+                <p class="p-0 m-0 period">Iun 2010 - Ian 2011</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Dispecer/Casier</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  SC. Presto Pizza SRL
+                </p>
+                <ul>
+                  <li>
+                    Preluarea comenzilor si predarea acestora spre pregatire
+                  </li>
+                  <li>
+                    Introducerea in sistem a facturilor venite de la furnizor
+                  </li>
+                  <li>
+                    Asigurarea mentenantei aparatelor elecronice existente in
+                    firma
+                  </li>
+                  <li>Asigurarea suportului in departamentul IT</li>
+                </ul>
+
+                <p class="p-0 m-0 period">Nov 2009 - Ian 2010</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Lucrator comercial</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  SC. Protruck SRL
+                </p>
+                <ul>
+                  <li>Pregatire colete pentru livrare</li>
+                  <li>Predare colete catre transportator</li>
+                  <li>Verificare stocuri</li>
+                </ul>
+              </div>
+
+              <!-- Education -->
+              <div class="my-3">
+                <i
+                  class="fas fa-user-graduate p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <h4 class="d-inline-block">Educatie</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="education-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="education-list">
+                <p class="p-0 m-0 period">Sep 2006 - Iul 2010</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Facultate: Turism, Comerts si Servicii </span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  Universitatea Romano-Americana, Bucuresti
+                </p>
+
+                <p class="p-0 m-0 period">Sep 2002 - Iul 2006</p>
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Liceu: Turism si Economie</span>
+                <p class="my-0 ml-4 font-weight-lighter font-italic">
+                  Liceul teoretic Mircea Vulcanescu, Bucuresti
+                </p>
+              </div>
+
+              <!-- Skills -->
+              <div class="my-3">
+                <i
+                  class="fas fa-cog p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+
+                <h4 class="d-inline-block">Abilitati</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="skills-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="skills-list">
+                <ul>
+                  <li>Capacitate de lucru in echipa</li>
+                  <li>Corectitudine</li>
+                  <li>Punctualitate</li>
+                  <li>Spontaneitate</li>
+                  <li>Rezistenta la stres si program prelungit</li>
+                  <li>
+                    Abilitatea de a gestiona situatile intr-o maniera
+                    corespunzatoare pentru obtinerea rezultatelor dorite
+                  </li>
+                  <li>Agile Methodology</li>
+                  <li>Scrum</li>
+                </ul>
+              </div>
+
+              <!-- Software -->
+              <div class="my-3">
+                <i
+                  class="fas fa-compact-disc p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <h4 class="d-inline-block">Software</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="software-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="software-list">
+                <ul>
+                  <li>
+                    <p class="d-inline">
+                      Linux
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                        aria-controls="false"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="20" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Windows
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="70" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Microsoft Office Suite(Word, Excel, Powerpoint, Access)
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="70" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Oracle e-business suite
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="40" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Figma
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="20" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Insomnia
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="55" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Visual Studio Code
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="40" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Jira
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="10" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Trello
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="30" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Confluence
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="10" max="100" />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Programming -->
+              <div class="my-3">
+                <i
+                  class="fas fa-ethernet p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+
+                <h4 class="d-inline-block">Programare</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="programming-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="programming-list">
+                <ul>
+                  <li>
+                    <p class="d-inline">
+                      HTML
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="80" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      CSS
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="70" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      SASS
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="30" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      JavaScript
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="30" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Bootstrap
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="50" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Skeleton
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="80" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Axios
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="40" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Node.js
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="5" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Express.js
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="5" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      MongoDB
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="5" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Mongoose
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="5" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Git
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="20" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      GitHub
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="60" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      GitLab
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="60" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      BitBucket
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="60" max="100" />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Foreign Languages -->
+              <div class="mb-3">
+                <i
+                  class="fas fa-globe p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <h4 class="d-inline-block">Limbi straine</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="languages-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="languages-list">
+                <i
+                  class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                ></i>
+                <span>Engleza</span>
+                <ul>
+                  <li>
+                    <p class="d-inline">
+                      Citit
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="90" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Scris
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="40" max="100" />
+                  </li>
+                  <li>
+                    <p class="d-inline">
+                      Vorbit
+                      <input
+                        type="number"
+                        max="100"
+                        min="0"
+                        class="input-field text-secondary"
+                      />%
+                    </p>
+                    <progress class="ml-5" value="60" max="100" />
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Hobby -->
+              <div class="my-3">
+                <i
+                  class="fas fa-cog p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <h4 class="d-inline-block">Pasiuni</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="hobby-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none" id="hobby-list">
+                <ul>
+                  <li>Jocuri PC</li>
+                  <li>Muzica</li>
+                  <li>IT</li>
+                  <li>Lectura</li>
+                  <li>Gatitul</li>
+                </ul>
+              </div>
+
+              <!-- Other Information -->
+              <div class="mb-3">
+                <i
+                  class="fas fa-random p-2 mr-2 rounded-circle bg-custom-blue text-white"
+                ></i>
+                <h4 class="d-inline-block">Alte Informatii</h4>
+                <a class="ml-2" href="#"
+                  ><i class="fas fa-bars" id="other-btn"></i
+                ></a>
+              </div>
+              <div class="px-2 text-secondary d-none">
+                <div id="other-list">
+                  <i
+                    class="fas fa-circle mr-2 rounded-circle text-custom-primary"
+                  ></i>
+                  <span>Permis de conducere</span>
+                  <p class="my-0 ml-4 font-weight-lighter font-italic">
+                    Categoria B
+                  </p>
+                </div>
+              </div>
+              <div class="guide-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Axios JS -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>

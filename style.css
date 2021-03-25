@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #868686;
+}
+.col {
+  position: relative;
+  z-index: 1;
+}
+
+.guide-line {
+  z-index: -1;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 1px;
+  height: 100%;
+  border-right: 2px solid #ddd;
+}
+
+.bg-custom-blue {
+  background-color: #19325c;
+}
+
+.text-custom-primary {
+  color: #19325c;
+}
+
+.period {
+  width: 120px;
+  position: absolute;
+  text-align: right;
+  left: -170px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+progress {
+  position: absolute;
+  right: 200px;
+}
+
+img {
+  height: 150px;
+  margin-right: 100px;
+}
+
+#header {
+  position: relative;
+  top: -250px;
+  transition: top ease-out 1s;
+}
+
+#contact {
+  position: relative;
+  left: -2000px;
+  transition: left ease-out 3s;
+}
+
+#location-and-objective {
+  position: relative;
+  right: -2000px;
+  transition: right ease-out 5s;
+}
+
+#content {
+  position: relative;
+  left: -2000px;
+  transition: left ease-out 6s;
+}
+
+input {
+  margin-left: 10px;
+  background-color: #f8f9fa;
+  height: 20px;
+  width: 45px;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#print {
+  font-size: 20px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .period {
+    width: 120px;
+    position: relative;
+    text-align: left;
+    left: 10px;
+    font-size: 0.8rem;
+    color: #868686;
+  }
+
+  .timeline {
+    display: none;
+  }
+
+  progress {
+    display: none;
+  }
+}
